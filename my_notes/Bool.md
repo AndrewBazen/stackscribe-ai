@@ -1,0 +1,5 @@
+The `bool` type keyword is an alias for the .NET [System.Boolean](https://learn.microsoft.com/en-us/dotnet/api/system.boolean) structure type that represents a Boolean value, which can be either `true` or `false`.
+
+To perform logical operations with values of the `bool` type, use [Boolean logical](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/boolean-logical-operators) operators. The `bool` type is the result type of [comparison](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/comparison-operators) and [equality](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/equality-operators) operators. A `bool` expression can be a controlling conditional expression in the [[If]], [[Do]], [[While]], and [[For]] statements and in the [conditional operator `?:`](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/conditional-operator).
+
+The default value of the `bool` type is `false`.

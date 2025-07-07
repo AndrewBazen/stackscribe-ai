@@ -1,0 +1,3 @@
+_Encapsulation_ is sometimes referred to as the first pillar or principle of [[object-oriented programming]]. A [[Class]] or [[Struct]] can specify how accessible each of its members is to code outside of the class or struct. Member not intended for consumers outside of the class or assembly are hidden to limit the potential for coding errors or malicious exploits.
+
+[[Struct]] encapsulates value types
