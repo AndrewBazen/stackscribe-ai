@@ -4,7 +4,6 @@ import spacy, re
 # ---------------- preload once ----------------
 NER  = spacy.load("en_core_web_sm")
 SYMBOL_RX = re.compile(r"```(\w+)?\n(.*?)```", re.S)
-# Tree-sitter set-up (Python example)       # cached parser
 
 # ------------- heuristic functions -----------
 def heading_match_bonus(query_sent, note_text, note_title):
